@@ -1,0 +1,22 @@
+{
+  "name": "greenway-bot",
+  "version": "1.0.0",
+  "description": "Telegram Bot for GreenWay Web App entry point",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "webapp",
+    "greenway"
+  ],
+  "author": "GreenWay",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "telegraf": "^4.15.3"
+  }
+}
