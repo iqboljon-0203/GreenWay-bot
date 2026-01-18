@@ -1,5 +1,5 @@
 require('dotenv').config();
-const { Telegraf, Markup } = require('telegraf');
+const { Telegraf } = require('telegraf');
 
 // Check for required environment variables
 if (!process.env.BOT_TOKEN) {
@@ -8,7 +8,6 @@ if (!process.env.BOT_TOKEN) {
 }
 
 const bot = new Telegraf(process.env.BOT_TOKEN);
-const webAppUrl = process.env.WEBAPP_URL || 'https://green-way-one.vercel.app/';
 
 // /start command handler
 bot.start((ctx) => {
@@ -19,15 +18,12 @@ GreenWay is a smart platform that delivers fresh, high-quality farm products dir
 Fast, reliable, and eco-friendly — from farm to your table.
   `;
 
-  ctx.replyWithMarkdown(welcomeMessage, Markup.keyboard([
-    [Markup.button.webApp('🟢 Open GreenWay', webAppUrl)]
-  ]).resize());
+  ctx.replyWithMarkdown(welcomeMessage);
 });
 
 // Launch the bot
 bot.launch().then(() => {
   console.log('GreenWay Bot is running...');
-  console.log(`Web App URL configured: ${webAppUrl}`);
 });
 
 // Enable graceful stop

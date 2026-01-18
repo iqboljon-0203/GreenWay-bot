@@ -4,7 +4,6 @@ This is a minimal Telegram Bot that serves as an entry point for the **GreenWay*
 
 ## Features
 - **Entry Point**: A simple `/start` command that welcomes users.
-- **Web App Integration**: A primary button "🟢 Open GreenWay" that opens the web application directly within Telegram.
 - **Minimalist**: Lightweight and fast, built with Node.js and Telegraf.
 
 ## Prerequisites
@@ -36,7 +35,6 @@ This is a minimal Telegram Bot that serves as an entry point for the **GreenWay*
 ## Usage
 - Open your bot in Telegram.
 - Send `/start`.
-- Click the "🟢 Open GreenWay" button to launch the Web App.
 
 ## Technical Details
 - **Framework**: `telegraf`

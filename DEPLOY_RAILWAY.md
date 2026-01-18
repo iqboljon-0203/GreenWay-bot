@@ -32,10 +32,7 @@ Bot ishlashi uchun TOKEN kerak. Buni Railway-ga kiritishimiz lozim.
 3.  Quyidagi ma'lumotlarni kiriting:
     *   **VARIABLE_NAME**: `BOT_TOKEN`
     *   **VALUE**: *(Sizning Telegram Bot Tokeningiz)*
-4.  Agar `WEBAPP_URL` ham ishlatayotgan bo'lsangiz, uni ham qo'shing:
-    *   **VARIABLE_NAME**: `WEBAPP_URL`
-    *   **VALUE**: `https://greenway.app`
-5.  O'zgaruvchilar qo'shilgandan so'ng, Railway avtomatik ravishda botni qayta ishga tushiradi (Redeploy).
+4.  O'zgaruvchilar qo'shilgandan so'ng, Railway avtomatik ravishda botni qayta ishga tushiradi (Redeploy).
 
 ## 4. Tekshirish
 Loyihangizning **"Logs"** bo'limiga o'ting. Agar hammasi to'g'ri bo'lsa, quyidagi yozuvni ko'rasiz:
